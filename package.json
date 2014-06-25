@@ -1,0 +1,24 @@
+{
+  "name": "anvil-connect-nodejs-api-example",
+  "version": "0.0.0",
+  "description": "Example of protecting an API using Anvil Connect",
+  "author": {
+    "name": "Christian Smith",
+    "email": "smith@anvil.io",
+    "url": "http://anvil.io"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/christiansmith/anvil-connect-nodejs-api-example.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/christiansmith/anvil-connect-nodejs-api-example",
+  "dependencies": {
+    "anvil-connect-sdk": "^0.1.1",
+    "express": "^4.4.4"
+  }
+}
